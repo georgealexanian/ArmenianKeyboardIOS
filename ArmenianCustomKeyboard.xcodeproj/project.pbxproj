@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53208032854DF0800B6A573 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53208022854DF0800B6A573 /* AppDelegate.m */; };
+		B53208062854DF0800B6A573 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53208052854DF0800B6A573 /* SceneDelegate.m */; };
+		B53208092854DF0800B6A573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53208082854DF0800B6A573 /* ViewController.m */; };
+		B532080C2854DF0800B6A573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B532080A2854DF0800B6A573 /* Main.storyboard */; };
+		B532080E2854DF0A00B6A573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B532080D2854DF0A00B6A573 /* Assets.xcassets */; };
+		B53208112854DF0A00B6A573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B532080F2854DF0A00B6A573 /* LaunchScreen.storyboard */; };
+		B53208142854DF0A00B6A573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53208132854DF0A00B6A573 /* main.m */; };
+		B532081E2854DF0A00B6A573 /* ArmenianCustomKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532081D2854DF0A00B6A573 /* ArmenianCustomKeyboardTests.m */; };
+		B53208282854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53208272854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.m */; };
+		B532082A2854DF0A00B6A573 /* ArmenianCustomKeyboardUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53208292854DF0A00B6A573 /* ArmenianCustomKeyboardUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B532081A2854DF0A00B6A573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53207F62854DF0800B6A573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53207FD2854DF0800B6A573;
+			remoteInfo = ArmenianCustomKeyboard;
+		};
+		B53208242854DF0A00B6A573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53207F62854DF0800B6A573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53207FD2854DF0800B6A573;
+			remoteInfo = ArmenianCustomKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B53207FE2854DF0800B6A573 /* ArmenianCustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArmenianCustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53208012854DF0800B6A573 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B53208022854DF0800B6A573 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B53208042854DF0800B6A573 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B53208052854DF0800B6A573 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B53208072854DF0800B6A573 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B53208082854DF0800B6A573 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B532080B2854DF0800B6A573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B532080D2854DF0A00B6A573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53208102854DF0A00B6A573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B53208122854DF0A00B6A573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53208132854DF0A00B6A573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53208192854DF0A00B6A573 /* ArmenianCustomKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmenianCustomKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B532081D2854DF0A00B6A573 /* ArmenianCustomKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArmenianCustomKeyboardTests.m; sourceTree = "<group>"; };
+		B53208232854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmenianCustomKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53208272854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArmenianCustomKeyboardUITests.m; sourceTree = "<group>"; };
+		B53208292854DF0A00B6A573 /* ArmenianCustomKeyboardUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArmenianCustomKeyboardUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53207FB2854DF0800B6A573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53208162854DF0A00B6A573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53208202854DF0A00B6A573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53207F52854DF0800B6A573 = {
+			isa = PBXGroup;
+			children = (
+				B53208002854DF0800B6A573 /* ArmenianCustomKeyboard */,
+				B532081C2854DF0A00B6A573 /* ArmenianCustomKeyboardTests */,
+				B53208262854DF0A00B6A573 /* ArmenianCustomKeyboardUITests */,
+				B53207FF2854DF0800B6A573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53207FF2854DF0800B6A573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53207FE2854DF0800B6A573 /* ArmenianCustomKeyboard.app */,
+				B53208192854DF0A00B6A573 /* ArmenianCustomKeyboardTests.xctest */,
+				B53208232854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53208002854DF0800B6A573 /* ArmenianCustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B53208012854DF0800B6A573 /* AppDelegate.h */,
+				B53208022854DF0800B6A573 /* AppDelegate.m */,
+				B53208042854DF0800B6A573 /* SceneDelegate.h */,
+				B53208052854DF0800B6A573 /* SceneDelegate.m */,
+				B53208072854DF0800B6A573 /* ViewController.h */,
+				B53208082854DF0800B6A573 /* ViewController.m */,
+				B532080A2854DF0800B6A573 /* Main.storyboard */,
+				B532080D2854DF0A00B6A573 /* Assets.xcassets */,
+				B532080F2854DF0A00B6A573 /* LaunchScreen.storyboard */,
+				B53208122854DF0A00B6A573 /* Info.plist */,
+				B53208132854DF0A00B6A573 /* main.m */,
+			);
+			path = ArmenianCustomKeyboard;
+			sourceTree = "<group>";
+		};
+		B532081C2854DF0A00B6A573 /* ArmenianCustomKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B532081D2854DF0A00B6A573 /* ArmenianCustomKeyboardTests.m */,
+			);
+			path = ArmenianCustomKeyboardTests;
+			sourceTree = "<group>";
+		};
+		B53208262854DF0A00B6A573 /* ArmenianCustomKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B53208272854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.m */,
+				B53208292854DF0A00B6A573 /* ArmenianCustomKeyboardUITestsLaunchTests.m */,
+			);
+			path = ArmenianCustomKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53207FD2854DF0800B6A573 /* ArmenianCustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B532082D2854DF0A00B6A573 /* Build configuration list for PBXNativeTarget "ArmenianCustomKeyboard" */;
+			buildPhases = (
+				B53207FA2854DF0800B6A573 /* Sources */,
+				B53207FB2854DF0800B6A573 /* Frameworks */,
+				B53207FC2854DF0800B6A573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArmenianCustomKeyboard;
+			productName = ArmenianCustomKeyboard;
+			productReference = B53207FE2854DF0800B6A573 /* ArmenianCustomKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53208182854DF0A00B6A573 /* ArmenianCustomKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53208302854DF0A00B6A573 /* Build configuration list for PBXNativeTarget "ArmenianCustomKeyboardTests" */;
+			buildPhases = (
+				B53208152854DF0A00B6A573 /* Sources */,
+				B53208162854DF0A00B6A573 /* Frameworks */,
+				B53208172854DF0A00B6A573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B532081B2854DF0A00B6A573 /* PBXTargetDependency */,
+			);
+			name = ArmenianCustomKeyboardTests;
+			productName = ArmenianCustomKeyboardTests;
+			productReference = B53208192854DF0A00B6A573 /* ArmenianCustomKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B53208222854DF0A00B6A573 /* ArmenianCustomKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53208332854DF0A00B6A573 /* Build configuration list for PBXNativeTarget "ArmenianCustomKeyboardUITests" */;
+			buildPhases = (
+				B532081F2854DF0A00B6A573 /* Sources */,
+				B53208202854DF0A00B6A573 /* Frameworks */,
+				B53208212854DF0A00B6A573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53208252854DF0A00B6A573 /* PBXTargetDependency */,
+			);
+			name = ArmenianCustomKeyboardUITests;
+			productName = ArmenianCustomKeyboardUITests;
+			productReference = B53208232854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53207F62854DF0800B6A573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B53207FD2854DF0800B6A573 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B53208182854DF0A00B6A573 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B53207FD2854DF0800B6A573;
+					};
+					B53208222854DF0A00B6A573 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B53207FD2854DF0800B6A573;
+					};
+				};
+			};
+			buildConfigurationList = B53207F92854DF0800B6A573 /* Build configuration list for PBXProject "ArmenianCustomKeyboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53207F52854DF0800B6A573;
+			productRefGroup = B53207FF2854DF0800B6A573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53207FD2854DF0800B6A573 /* ArmenianCustomKeyboard */,
+				B53208182854DF0A00B6A573 /* ArmenianCustomKeyboardTests */,
+				B53208222854DF0A00B6A573 /* ArmenianCustomKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53207FC2854DF0800B6A573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53208112854DF0A00B6A573 /* LaunchScreen.storyboard in Resources */,
+				B532080E2854DF0A00B6A573 /* Assets.xcassets in Resources */,
+				B532080C2854DF0800B6A573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53208172854DF0A00B6A573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53208212854DF0A00B6A573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53207FA2854DF0800B6A573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53208092854DF0800B6A573 /* ViewController.m in Sources */,
+				B53208032854DF0800B6A573 /* AppDelegate.m in Sources */,
+				B53208142854DF0A00B6A573 /* main.m in Sources */,
+				B53208062854DF0800B6A573 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53208152854DF0A00B6A573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B532081E2854DF0A00B6A573 /* ArmenianCustomKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532081F2854DF0A00B6A573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53208282854DF0A00B6A573 /* ArmenianCustomKeyboardUITests.m in Sources */,
+				B532082A2854DF0A00B6A573 /* ArmenianCustomKeyboardUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B532081B2854DF0A00B6A573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53207FD2854DF0800B6A573 /* ArmenianCustomKeyboard */;
+			targetProxy = B532081A2854DF0A00B6A573 /* PBXContainerItemProxy */;
+		};
+		B53208252854DF0A00B6A573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53207FD2854DF0800B6A573 /* ArmenianCustomKeyboard */;
+			targetProxy = B53208242854DF0A00B6A573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B532080A2854DF0800B6A573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B532080B2854DF0800B6A573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B532080F2854DF0A00B6A573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53208102854DF0A00B6A573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B532082B2854DF0A00B6A573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B532082C2854DF0A00B6A573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B532082E2854DF0A00B6A573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArmenianCustomKeyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B532082F2854DF0A00B6A573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArmenianCustomKeyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B53208312854DF0A00B6A573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArmenianCustomKeyboard.app/ArmenianCustomKeyboard";
+			};
+			name = Debug;
+		};
+		B53208322854DF0A00B6A573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArmenianCustomKeyboard.app/ArmenianCustomKeyboard";
+			};
+			name = Release;
+		};
+		B53208342854DF0A00B6A573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArmenianCustomKeyboard;
+			};
+			name = Debug;
+		};
+		B53208352854DF0A00B6A573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArmenianCustomKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53207F92854DF0800B6A573 /* Build configuration list for PBXProject "ArmenianCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532082B2854DF0A00B6A573 /* Debug */,
+				B532082C2854DF0A00B6A573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B532082D2854DF0A00B6A573 /* Build configuration list for PBXNativeTarget "ArmenianCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532082E2854DF0A00B6A573 /* Debug */,
+				B532082F2854DF0A00B6A573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53208302854DF0A00B6A573 /* Build configuration list for PBXNativeTarget "ArmenianCustomKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53208312854DF0A00B6A573 /* Debug */,
+				B53208322854DF0A00B6A573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53208332854DF0A00B6A573 /* Build configuration list for PBXNativeTarget "ArmenianCustomKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53208342854DF0A00B6A573 /* Debug */,
+				B53208352854DF0A00B6A573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53207F62854DF0800B6A573 /* Project object */;
+}
