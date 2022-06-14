@@ -26,6 +26,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "oie_11223437imktOVeT.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
@@ -69,6 +70,11 @@
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
     },
     {
       "idiom" : "ipad",
