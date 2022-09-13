@@ -50,7 +50,7 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		B53208462854DF1B00B6A573 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
@@ -539,7 +539,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArmenianCustomKeyboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -552,7 +552,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazzentertainment.ArmenianCustomKeyboard.ArmenianCustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,7 +566,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArmenianCustomKeyboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -579,7 +579,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazzentertainment.ArmenianCustomKeyboard.ArmenianCustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -592,7 +592,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
@@ -610,7 +610,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
@@ -627,7 +627,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboardUITests;
@@ -643,7 +643,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboardUITests;
@@ -659,7 +659,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArmenianKeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ArmenianKeyboard;
@@ -670,7 +670,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboard.ArmenianKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazzentertainment.ArmenianCustomKeyboard.ArmenianCustomKeyboard.ArmenianKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -683,7 +683,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C4ZX2XW3WB;
+				DEVELOPMENT_TEAM = M2TYT4P852;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArmenianKeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ArmenianKeyboard;
@@ -694,7 +694,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazz.ArmenianCustomKeyboard.ArmenianCustomKeyboard.ArmenianKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekstazzentertainment.ArmenianCustomKeyboard.ArmenianCustomKeyboard.ArmenianKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -6,8 +6,6 @@
 	<dict>
 		<key>NSExtension</key>
 		<string>yes</string>
-		<key>RequestsOpenAccess</key>
-		<string>yes</string>
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>IsASCIICapable</key>
@@ -19,10 +17,12 @@
 			<key>RequestsOpenAccess</key>
 			<false/>
 		</dict>
-		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.keyboard-service</string>
 		<key>NSExtensionMainStoryboard</key>
 		<string>KeyboardStoryboard</string>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.keyboard-service</string>
+		<key>RequestsOpenAccess</key>
+		<string>yes</string>
 	</dict>
 </dict>
 </plist>
