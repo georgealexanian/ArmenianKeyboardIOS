@@ -21,6 +21,7 @@
 		B53208422854DF1B00B6A573 /* ArmenianKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B532083A2854DF1B00B6A573 /* ArmenianKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B53208482854DFF000B6A573 /* KeyboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53208472854DFF000B6A573 /* KeyboardStoryboard.storyboard */; };
 		B5C0493D285533F8000B46EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C0493C285533F8000B46EF /* icon.png */; };
+		B5D750BB28D104CF00514B9D /* icon167.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D750BA28D104CF00514B9D /* icon167.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		B532083F2854DF1B00B6A573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53208472854DFF000B6A573 /* KeyboardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KeyboardStoryboard.storyboard; sourceTree = "<group>"; };
 		B5C0493C285533F8000B46EF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B5D750BA28D104CF00514B9D /* icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon167.png; path = ../../../../../Downloads/icon167.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		B532083B2854DF1B00B6A573 /* ArmenianKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				B5D750BA28D104CF00514B9D /* icon167.png */,
 				B5C0493C285533F8000B46EF /* icon.png */,
 				B532083C2854DF1B00B6A573 /* KeyboardViewController.h */,
 				B532083D2854DF1B00B6A573 /* KeyboardViewController.m */,
@@ -338,6 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D750BB28D104CF00514B9D /* icon167.png in Resources */,
 				B53208482854DFF000B6A573 /* KeyboardStoryboard.storyboard in Resources */,
 				B5C0493D285533F8000B46EF /* icon.png in Resources */,
 			);
